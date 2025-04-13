@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BookVentor-다른 사람들의 책 이야기</title>
+  <style>
+    .header {
+        background-color: #c3c1fe;
+        height: 200px;
+        position: relative; 
+    }
+
+    .title {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 5em;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .subtitle {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        font-size: 1.5em;
+        color: #333;
+        margin: 0;
+        text-align: end;
+        font-style: italic;
+    }
+
+    .display {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .more_review {
+        position:absolute;
+        right: 230px;
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
+
+    .text_area{
+        width: 700px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        text-align: justify;
+    }
+
+    .category_button{
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+    }
+
+    .lowest_site_button{
+        position: absolute;
+        color: white;
+        background-color: #5f7afe;
+        right: 30px;
+        width: 150px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+    }
+
+
+  </style>
+</head>
+<body>
+    <div class="header">
+    <h1 class="title">BookVentor</h1>
+    <p class="subtitle">
+        다른 사람들의 책 이야기, 한눈에 담다.<br>
+        당신의 다음 책을 리뷰 속에서 찾아보세요.
+    </p>
+    </div>
+    <br><br>
+    <span>
+        <button class="category_button">전체</button>
+        <button class="category_button">소설</button>
+        <button class="category_button">과학</button>
+        <button class="category_button">인문</button>
+        <button class="category_button">만화</button>
+    </span>
+    
+    <br><br>
+
+    <h1 style="margin-left: 20px;">
+        베스트 주간 랭킹
+    </h1>
+
+<hr>
+
+<div style="display: flex;">  
+    <img src="asset/책 표지.jpg" width="15%" style="margin-left: 30px; margin-top: 30px; margin-bottom: 30px;">
+    <div class="display">
+        <span style="color: gold;">
+            ★★★★★
+            <small style="color: gray;">
+                (99+개의 리뷰)
+            </small>
+        </span> 
+        
+        <h2>1 듀얼브레인</h2>
+        <small style="color: gray;">이선 몰릭 / 상상퀘어 / 2025.03.19</small>
+        <br><br>
+        <h4><베스트 리뷰></h4>
+        <p class="text_area">
+            저는 운이 좋게도 <듀얼 브레인>을 가제본으로 먼저 읽을 수 있었습니다. 
+            책을 정말 많이 읽지만 이 책은 충격 그 자체였습니다. 
+            그리고 정말 많이 반성했습니다. 저는 챗지피티 200달러 유료 구독으로 쓸 만큼 AI헤비유저이고, 
+            또 저희 회사에서도 인공지능을 활용하고 있기 때문에 인공지능에 대해 많이 알고 있다고 생각했습니다. 
+            하지만 그 생각은 <듀얼 브레인>을 읽고 완전히 바뀌었습니다. 
+            저는 굉장히 국소적인 부분만 이해하고 활용하고 있었고, 거시적인 관점에서 특히 나의 뇌와 인공지능의 뇌를 책 제목처럼 듀얼 브레인으로 쓴다는 관점에서
+        </p>
+    </div>
+    <a href="#review_detail" style="color: inherit;""><p class="more_review">리뷰 더 보러가기 ></p></a>
+    
+    <br>
+    <a href="https://product.kyobobook.co.kr/detail/S000215838626" target="_blank">
+        <button class="lowest_site_button">
+            최저가 사이트 보러가기
+        </button>
+    </a>
+    
+
+</div>
+<hr>
+
+<div style="display: flex;">  
+    <img src="asset/책 표지2.jpg" width="15%" style="margin-left: 30px; margin-top: 30px; margin-bottom: 30px;">
+    <div class="display">
+        <span style="color: gold;">
+            ★★★★★
+            <small style="color: gray;">
+                (99+개의 리뷰)
+            </small>
+        </span> 
+        
+        <h2>2 모순</h2>
+        <small style="color: gray;">양귀자 / 쓰다 / 2013.04.01</small>
+        <br><br>
+        <h4><베스트 리뷰></h4>
+        <p class="text_area">
+            저는 운이 좋게도 <듀얼 브레인>을 가제본으로 먼저 읽을 수 있었습니다. 
+            책을 정말 많이 읽지만 이 책은 충격 그 자체였습니다. 
+            그리고 정말 많이 반성했습니다. 저는 챗지피티 200달러 유료 구독으로 쓸 만큼 AI헤비유저이고, 
+            또 저희 회사에서도 인공지능을 활용하고 있기 때문에 인공지능에 대해 많이 알고 있다고 생각했습니다. 
+            하지만 그 생각은 <듀얼 브레인>을 읽고 완전히 바뀌었습니다. 
+            저는 굉장히 국소적인 부분만 이해하고 활용하고 있었고, 거시적인 관점에서 특히 나의 뇌와 인공지능의 뇌를 책 제목처럼 듀얼 브레인으로 쓴다는 관점에서
+        </p>
+    </div>
+    <p class="more_review">리뷰 더 보러가기 ></p>
+    <br>
+    
+    <a href="https://product.kyobobook.co.kr/detail/S000001632467" target="_blank">
+        <button class="lowest_site_button">
+            최저가 사이트 보러가기            
+        </button>
+    </a>
+
+</div>
+<hr>
+
+</body>
+</html>
